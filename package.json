@@ -1,16 +1,21 @@
+
 {
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest",
+    "vite": "latest",
     "xlsx": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
