@@ -1,0 +1,19 @@
+{
+  "name": "Controle de Gastos 2.0",
+  "short_name": "Gastos 2.0",
+  "description": "Aplicativo simples para registrar entradas, despesas, extrato e graficos.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#172033",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
